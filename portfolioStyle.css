@@ -1,0 +1,249 @@
+@font-face
+{
+    font-family: 'simplifica';
+    src: url(fonts/SIMPLIFICA\ Typeface.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+body
+{
+    font-family: 'simplifica';
+    font-weight: 10;
+    font-style: inherit;
+    background-color: #2b4b6f;
+    background-image: url('Images\ for\ HTML/programmer.jpg'); /*Image Courtesy of https://hackernoon.com/ubuntu-18-04-deep-learning-environment-setup-345ba0b11892*/
+}
+
+.topnav 
+{
+    overflow: hidden;
+    background-color: rgba(19, 50, 83 0.7);;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.topnav a 
+{
+    float: center;
+    color: #fff;
+    text-align: center;
+    padding: 0px 70px;
+    text-decoration: none;
+    font-size: 28px;
+    background-color: #133253;
+    width: 100%;
+    display: inline-flexbox;
+    
+}
+
+.topnav a:hover 
+{
+    background: #738ca6;
+    color: #fff;
+}
+
+.mainBox
+{
+   
+    height: 250px;
+    margin: auto;
+    padding: 0px 0px 70px;
+    width: 900px;
+    background-color: #133253;
+    color: #fff;  
+    size: 100%;
+}
+
+#mainBoxAbout
+{
+   
+    height: 1420px;
+    margin: auto;
+    padding: 0px 0px 70px;
+    width: 900px;
+    background-color: #133253;
+    color: #fff;  
+    size: 100%;
+}
+
+#mainBoxCode
+{
+    height: 300px;
+    margin: auto;
+    padding: 0px 0px 70px;
+    width: 900px;
+    background-color: #133253;
+    color: #fff;  
+    size: 100%;
+}
+
+#downloadC
+{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mainBoxEssays
+{
+    height: 1500px;
+    margin: auto;
+    padding: 0px 0px 70px;
+    width: 900px;
+    background-color: #133253;
+    color: #fff;  
+    size: 100%;
+}
+
+#essaysMsg
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+#downloadCV
+{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#downloadEssay
+{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mainboxQualifications
+{
+    height: 340px;
+    margin: auto;
+    padding: 0px 0px 70px;
+    width: 900px;
+    background-color: #133253;
+    color: #fff;  
+    size: 100%;
+}
+
+#qualificationTable 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td    /*HTML selector*/
+{
+    border: 1px solid #fff;
+    text-align: left;
+    padding: 8px;
+}
+
+th
+{
+    border: 1px solid #fff;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) 
+{
+    background-color: #738ca6;
+}
+
+#mainboxContact
+{
+    height: 500px;
+    margin: auto;
+    padding: 0px 0px 70px;
+    width: 900px;
+    background-color: #133253;
+    color: #fff;  
+    size: 100%;
+}
+
+#contactDescription
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#details
+{
+    float:right;
+}
+
+form
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+
+}
+
+#pic
+{
+    width: 25%;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#homepageDescTitle
+{
+    float: right;
+    padding: 0px 60px 0px 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.telEmail
+{
+    float: right;
+}
+
+#breifDesc
+{
+    padding: 0px 0px 0px 0px;
+}
+
+#aboutDescription
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5%;
+}
+
+#cSharpPic
+{
+    width: 15%;
+    float: right;
+}
+
+#CPPpic
+{
+    width: 15%;
+    float: left;
+    margin: 10px;
+}
+
+#sheffHallam
+{
+    width: 17%;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#picMe
+{
+    width: 25%;
+    float: right;
+    margin: 0px 0px;
+}
+
+
+.footer
+{
+    background-color:#133253 ;
+}
+
+
